@@ -133,3 +133,24 @@ header{
     margin-bottom: 0px;
     color: #808080;
 }
+@media screen and (max-width: 758px)  {
+    .location-div{
+        width: 100%;
+        height: 60px;
+        background-color: white;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-top: 16px !important;
+     }
+}
+
+@media screen and (max-width:990px){
+    .navbar{
+        background-color: white;
+    
+    }
+    .nav-link{
+        color: black !important;
+    }
+}
